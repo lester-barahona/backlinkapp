@@ -1,0 +1,40 @@
+.navbar-brand img{
+    max-width: 120px;
+    height: auto;
+}
+
+.nav-link{
+    font-size: 1.12rem;
+}
+
+.text-orange{
+    color:#FF4500 !important;
+}
+
+.hover-blue:hover{
+    color:blue !important;
+}
+
+.categorybox{
+    border-radius: 5px;
+    border: 1px solid #3490dc;
+    background: #F8FAFC;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),6px 6px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.categorybox h5{
+    margin-bottom: 0px !important;
+}
+
+.categoryboxs{
+    border-radius: 5px;
+    border: 1px solid #7babd1;
+    background: #F8FAFC;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),6px 6px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.categorybox h6{
+    margin-bottom: 0px !important;
+}
