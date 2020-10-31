@@ -48,7 +48,7 @@
                    <vue-editor v-model="form.description"></vue-editor>
             </div>
 
-            <button type="submit" class="btn btn-success">Submit your Domain</button>
+            <button type="submit" @click="ndnfier" class="btn btn-success">Submit your Domain</button>
        </form>
    </div> 
 </template>
@@ -72,13 +72,14 @@
                        description:'', 
                        category_id:'1',
                        subcategory_id:'',
-
                     }
                 )
             }
         },
         
         methods:{
+
+            
             //pago con paypal
                 setLoaded: function(resp) {
                     
